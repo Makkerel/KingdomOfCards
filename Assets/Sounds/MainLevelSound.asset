@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7952ac3236e86b40b3ed4efd156c424, type: 3}
+  m_Name: MainLevelSound
+  m_EditorClassIdentifier: Assembly-CSharp::SoundLibrary
+  sounds:
+  - name: DrawMusic
+    clip: {fileID: 8300000, guid: 9a0615c6b39e5694493a7d3398e7c758, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: CombatMusic
+    clip: {fileID: 8300000, guid: 7236e90aefe524f4fa718fbc9cb15e75, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: DefendMusic
+    clip: {fileID: 8300000, guid: 56f5852cc5509684f80a795e67cab4a7, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: StartCombat
+    clip: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
+    volume: 0.05
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: ClickButton
+    clip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+    volume: 0.3
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: SelectCard
+    clip: {fileID: 8300000, guid: 02195256f6c37cb4ca446480007a1f8c, type: 3}
+    volume: 0.4
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: DrawCards
+    clip: {fileID: 8300000, guid: 64d5cb8d5c3686a42915c562e9d1257a, type: 3}
+    volume: 0.5
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: PlaceBuilding
+    clip: {fileID: 8300000, guid: d030067241cc539449b05e0783359a75, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: PlaceFailure
+    clip: {fileID: 8300000, guid: 095b75c8a8bc37342a32d1a8de0247f4, type: 3}
+    volume: 0.15
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: UpgradeBuilding
+    clip: {fileID: 8300000, guid: 7ceabfb8153f95e46b059f8ac1a7077b, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: FortifyBuilding
+    clip: {fileID: 8300000, guid: c4d80b9c6c3bd3d47be857748eb29cf0, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: MinibossSpawnAlert
+    clip: {fileID: 8300000, guid: b99da9a57308d4ba1bee1cf1d9038376, type: 3}
+    volume: 0.1
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: PlaceTroop
+    clip: {fileID: 8300000, guid: 4088aadf23948b64ca53c65b19d61839, type: 3}
+    volume: 0.2
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: WinGame
+    clip: {fileID: 8300000, guid: 333c3a24611a07249bc11ffccf3be1ca, type: 3}
+    volume: 0.2
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: LoseGame
+    clip: {fileID: 8300000, guid: 48a050482d4b4b243a659241f1d19a90, type: 3}
+    volume: 0.2
+    pitchRandomness: 0
+    bypassLowPass: 0
+  - name: KnightAttack
+    clip: {fileID: 8300000, guid: fee18c363913d914abf9c78eee0811d4, type: 3}
+    volume: 1
+    pitchRandomness: 0.05
+    bypassLowPass: 1
+  - name: PaladinAttack
+    clip: {fileID: 8300000, guid: a3a8784b08122cf45a2c8a19fb46b33b, type: 3}
+    volume: 1
+    pitchRandomness: 0.05
+    bypassLowPass: 1
+  - name: ArcherAttack
+    clip: {fileID: 8300000, guid: 2006586f12baf004391bf9ded010d1b3, type: 3}
+    volume: 1
+    pitchRandomness: 0.05
+    bypassLowPass: 1
+  - name: ArbelisterAttack
+    clip: {fileID: 8300000, guid: cfac9a7298ccebf46ae8cb47108b1a1c, type: 3}
+    volume: 1
+    pitchRandomness: 0.05
+    bypassLowPass: 1
+  - name: BuildingExplosion
+    clip: {fileID: 8300000, guid: 938dcba4fdd93bd4898e7b524ce1606a, type: 3}
+    volume: 0.1
+    pitchRandomness: 0.05
+    bypassLowPass: 1
+  - name: BuildingCollapse
+    clip: {fileID: 8300000, guid: 63b7c27f41f2c5b4bb410f01e4a359de, type: 3}
+    volume: 0.1
+    pitchRandomness: 0.05
+    bypassLowPass: 0
+  - name: BossSpawnAlert
+    clip: {fileID: 8300000, guid: cabfae866cab347928b74b7d0ca6bfa9, type: 3}
+    volume: 0.1
+    pitchRandomness: 0.05
+    bypassLowPass: 0

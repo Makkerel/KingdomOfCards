@@ -1,0 +1,68 @@
+:root {
+}
+
+.button {
+    align-self: center;
+    justify-content: flex-start;
+    align-items: auto;
+    flex-direction: column;
+    -unity-font-definition: url("project://database/Assets/External%20Assets/ThaleahFat/ThaleahFat.ttf?fileID=12800000&guid=e75e35ccd61c58840be6a673a02aca08&type=3#ThaleahFat");
+    font-size: 150px;
+    -unity-text-align: middle-center;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-image: url("project://database/Assets/External%20Assets/Tiny%20Swords/UI%20Elements/Buttons/BigRedButton_Regular.png?fileID=21300000&guid=cb17f8006e32c48abaaec2c0383c0502&type=3#BigRedButton_Regular");
+    -unity-background-scale-mode: stretch-to-fill;
+    position: relative;
+    opacity: 1;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    top: auto;
+    color: rgb(213, 213, 213);
+    width: 750px;
+    height: 300px;
+    -unity-font-style: normal;
+    -unity-text-outline-width: 7px;
+    -unity-text-outline-color: rgb(0, 73, 107);
+    text-shadow: 10px 10px 0 rgb(18, 12, 12);
+    transition-property: translate, -unity-background-image-tint-color;
+    transition-duration: 0.1s, 0.1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    filter: contrast(1.05);
+    flex-shrink: 1;
+}
+
+.button:hover {
+    transition-property: translate, -unity-background-image-tint-color;
+    transition-duration: 0.1s, 0.1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    scale: 1 1;
+    translate: 0 4px;
+}
+
+.button:active {
+    transition-property: translate, -unity-background-image-tint-color;
+    transition-duration: 0.1s, 0.1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    translate: 0 10px;
+    -unity-background-image-tint-color: rgb(247, 192, 182);
+}
+
+.title {
+}

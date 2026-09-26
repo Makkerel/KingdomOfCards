@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f48004f24dadf459033248db577d85, type: 3}
+  m_Name: Castle
+  m_EditorClassIdentifier: Assembly-CSharp::Building
+  card_name: Castle
+  description: Pick an additional card at the start of every turn
+  action_cost: 1
+  card_art: {fileID: 21300000, guid: 5fef2d88b09824faba4be40a870c347e, type: 3}
+  building_prefab: {fileID: 3494862228196083946, guid: a805dd10ab59aff44a23bdcc72a79244, type: 3}
+  buildingTiers:
+  - tierLevel: 1
+    building_look: {fileID: 4300000, guid: 04a85a830d659624b8faf292a327efed, type: 3}
+    effects:
+    - {fileID: 11400000, guid: fd118b8591dc6a444a15211748a9c79b, type: 2}
+  - tierLevel: 2
+    building_look: {fileID: 4300000, guid: 04a85a830d659624b8faf292a327efed, type: 3}
+    effects:
+    - {fileID: 11400000, guid: f1a4c96b589bd6e48b07d3178dafb991, type: 2}
+  fortifyBonuses:
+  - {fileID: 11400000, guid: 2ac82c9bf160ca14e976e24495f6f5c0, type: 2}

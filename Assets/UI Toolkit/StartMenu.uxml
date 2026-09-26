@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StartMenu.uss?fileID=7433441132597879392&amp;guid=e45ff887c5ea2ce4384fef19a2ed1244&amp;type=3#StartMenu"/>
+    <ui:VisualElement name="MainContainer" style="flex-direction: column; justify-content: center; flex-grow: 1; background-image: url(&quot;project://database/Assets/External%20Assets/MainMenuImage.png?fileID=21300000&amp;guid=ec232832091efc749ab4292f8419989e&amp;type=3#MainMenuImage&quot;);">
+        <ui:Label text="Kingdom&#10;of &#10;Cards" name="Title" class="title" style="-unity-font-definition: url(&quot;project://database/Assets/External%20Assets/ThaleahFat/ThaleahFat.ttf?fileID=12800000&amp;guid=e75e35ccd61c58840be6a673a02aca08&amp;type=3#ThaleahFat&quot;); font-size: 300px; -unity-text-align: upper-center; word-spacing: -15px; text-shadow: 20px 20px 0 rgb(147, 0, 4); align-self: center; -unity-font-style: normal; white-space: nowrap; text-overflow: clip; -unity-text-outline-color: rgb(197, 76, 0); color: rgb(255, 203, 75); flex-grow: 2; flex-direction: column; margin-bottom: 0; -unity-paragraph-spacing: -40px; -unity-text-outline-width: 7px;"/>
+        <ui:Button text="Start" name="Start" class="button"/>
+        <ui:Button text="Credits" name="Credits" class="button"/>
+        <ui:Button text="Quit" name="Quit" class="button"/>
+    </ui:VisualElement>
+</ui:UXML>
